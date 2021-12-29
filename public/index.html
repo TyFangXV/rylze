@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>test no:056</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!--nav-->
+    <nav>
+        <p class="logo">R.T.C.I.F</p>
+        <div class="menu-box"><i class="fad fa-bars" id="menu"></i></div>
+    </nav>
+
+    <!--pop up for input-->
+    <div class="user-tweet-input" id="centerThing">
+        <div class="cancel-btn"><i class="fad fa-times" id="cancelBtn"></i></div>
+        <center>
+            <div class="input-box">
+                <input type="text" id="user-tweet-input" class="text-box" placeholder="Enter your text">
+                <button type="button" id="btnAdd">ADD</button>
+            </div>
+        </center>
+
+    </div>
+
+    <!--menu box-->
+    <div class="accountz" id="menuBox">
+        <p class="nav-btn" id="AccountActivation">Account</p>
+        <p class="nav-btn">Privacy</p>
+        <p class="nav-btn">sign-out</p>
+    </div>
+
+    <!--controls-->
+    <div class="Tweet-Btn"><i class="fad fa-pen" id="addBox"></i></div>
+
+    <!--account-overlay-->
+    <div class="account-overlay" id="account">
+        <div class="cancel">
+            <i class="fad fa-times" id="cancelBtnAccount"></i>
+        </div>
+        <div class="user-details">
+            <img class="profilePic" id="dp" src="image/wolf.png">
+            <div class="details">
+                <p id="account-name"><span class="name">name: </span>@not signed in </p>
+                <p id="account-email"><span class="email">E-mail:</span> dummyText@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="module" src="scripts/script.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

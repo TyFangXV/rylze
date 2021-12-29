@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+$valit:'Raleway', sans-serif;
+$raLit : 'Oswald', sans-serif;
+$paperazi : 'Piazzolla', serif;
+$litFont :'Syne Mono', monospace;
+$ptSans :'PT Sans', sans-serif;
+
+$navyBlue: rgb(2, 13, 49);
+$authgrey: rgb(26, 25, 25);
+$authgrey2: rgb(17, 17, 17);
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: $authgrey;
+
+}
+    .Tweet-Btn{
+        padding-top: 5px;
+     text-align: center;
+     margin-left: 95%;
+     
+
+     i{
+     background-color: $authgrey2;
+     border-radius: 25%;
+     padding: 10px 10px 10px 10px;
+     font-size: 20px;
+     color: white;
+     }
+
+
+    }
+
+  .accountz{
+            text-align: center;
+            display: none;
+            justify-content: center;
+            background-color: $authgrey2;
+            z-index: 2rem;
+            margin-left: 85%;
+            border-radius: 5%;
+            .nav-btn{
+                color: white;
+                font-size: 20px;
+                font-family: $litFont;
+                padding-right: 1%;
+                padding-top: 12px;
+                
+
+            }
+            .nav-btn:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+
+
+    nav{
+        
+      background: $authgrey2;
+      
+
+       .user-tweet-i{
+          text-align: right;
+
+          #edit{
+              font-size: 30px;
+              color: whitesmoke;
+              text-align: right;
+          }
+      }
+      
+      .menu-box{
+   
+   text-align: right;
+      #menu{
+        font-size: 30px;
+        color: whitesmoke;
+        text-align: right;
+
+      }
+              
+   }
+     
+      
+
+     .logo{
+       padding-top: 20px;
+       color:white;
+       font-size: 2rem;
+       padding-left: 10px;
+       font-family: $litFont;
+       text-align: left;
+       }
+
+      }
+
+
+
+
+.user-tweet-input{
+    margin-top: 10px;
+    padding-bottom: 1rem;
+    background-color: $authgrey2;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    display: none;
+    animation: bounceIn 2s;
+
+        .cancel-btn{
+            text-align: right;
+
+         i{
+          color: white;
+          }
+        }
+    .input-box{
+        padding-top:3rem;
+
+
+
+
+        .text-box{
+            width:275px;
+            height: 25px;
+            border:none;
+            background-color: rgb(20, 20, 20);
+            border-radius:10px;
+            outline: none;
+            text-align: center;
+            color:red;
+            font-family: $litFont;
+        }
+
+        button{
+            border:none;
+             background-color:rgb(20, 20, 20);
+             padding:5px;
+             outline: none;
+             font-family: $litFont;
+        }
+    }
+}
+
+.blog-user
+{
+    
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 20px;
+    
+    .tweet{
+        border-radius: 5px;
+        
+        .user-info{
+            display: flex;
+            background-color: $navyBlue;
+            border-radius: 10px;
+            .user-image-blog{
+                width: 35px;
+                height: 35px;
+                border-radius: 50px;
+            }
+
+            .user-name-blog{
+                padding-top: 2px;
+                font-size: 1rem;
+                font-family: $raLit;
+            }
+        }
+
+        .user-widget{
+          margin-top: 5px;
+          background-color: $authgrey2;
+          border-radius: 5px;
+
+          .user-tweet{
+              text-align: center;
+              font-family: $valit;
+          }
+
+        }
+    }
+}
+
+.account-overlay{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $authgrey2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 10%;
+
+    .cancel{
+       text-align: right;
+       #cancelBtnAccount{
+           color: red;
+           font-size: 20px;
+           cursor: pointer;
+       }
+    }
+    .user-details{
+        text-align: center;
+        .profilePic{
+            width: 150px;
+            height: 150px;
+            border-radius: 100*2px;
+        }
+    
+         .details{
+            #account-name{
+             font-size: 20px;
+             color: white;
+             font-family: $raLit;                
+            }
+
+            #account-email{
+                font-size: 20px;
+                color: white;
+                font-family: $raLit; 
+            }
+
+
+            .name{
+                color: red;
+            }
+
+            .email{
+                color: red;
+            }
+         }
+
+
+    }
+}
+    
+    
+
+   
+
+   
+    

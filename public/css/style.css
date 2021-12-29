@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1a1919;
+}
+
+.Tweet-Btn {
+    padding-top: 5px;
+    text-align: center;
+    margin-left: 95%;
+}
+
+.Tweet-Btn i {
+    background-color: #111111;
+    border-radius: 25%;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.accountz {
+    text-align: center;
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #111111;
+    z-index: 2rem;
+    margin-left: 85%;
+    border-radius: 5%;
+}
+
+.accountz .nav-btn {
+    color: white;
+    font-size: 20px;
+    font-family: "Syne Mono", monospace;
+    padding-right: 1%;
+    padding-top: 12px;
+}
+
+.accountz .nav-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav {
+    background: #111111;
+}
+
+nav .user-tweet-i {
+    text-align: right;
+}
+
+nav .user-tweet-i #edit {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: right;
+}
+
+nav .menu-box {
+    text-align: right;
+}
+
+nav .menu-box #menu {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: right;
+}
+
+nav .logo {
+    padding-top: 20px;
+    color: white;
+    font-size: 2rem;
+    padding-left: 10px;
+    font-family: "Syne Mono", monospace;
+    text-align: left;
+}
+
+.user-tweet-input {
+    margin-top: 10px;
+    padding-bottom: 1rem;
+    background-color: #111111;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    display: none;
+    -webkit-animation: bounceIn 2s;
+    animation: bounceIn 2s;
+}
+
+.user-tweet-input .cancel-btn {
+    text-align: right;
+}
+
+.user-tweet-input .cancel-btn i {
+    color: white;
+}
+
+.user-tweet-input .input-box {
+    padding-top: 3rem;
+}
+
+.user-tweet-input .input-box .text-box {
+    width: 275px;
+    height: 25px;
+    border: none;
+    background-color: #141414;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    color: red;
+    font-family: "Syne Mono", monospace;
+}
+
+.user-tweet-input .input-box button {
+    border: none;
+    background-color: #141414;
+    padding: 5px;
+    outline: none;
+    font-family: "Syne Mono", monospace;
+}
+
+.blog-user {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 20px;
+}
+
+.blog-user .tweet {
+    border-radius: 5px;
+}
+
+.blog-user .tweet .user-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #020d31;
+    border-radius: 10px;
+}
+
+.blog-user .tweet .user-info .user-image-blog {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.blog-user .tweet .user-info .user-name-blog {
+    padding-top: 2px;
+    font-size: 1rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.blog-user .tweet .user-widget {
+    margin-top: 5px;
+    background-color: #111111;
+    border-radius: 5px;
+}
+
+.blog-user .tweet .user-widget .user-tweet {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.account-overlay {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #111111;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 10%;
+}
+
+.account-overlay .cancel {
+    text-align: right;
+}
+
+.account-overlay .cancel #cancelBtnAccount {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.account-overlay .user-details {
+    text-align: center;
+}
+
+.account-overlay .user-details .profilePic {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+}
+
+.account-overlay .user-details .details #account-name {
+    font-size: 20px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+
+.account-overlay .user-details .details #account-email {
+    font-size: 20px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+
+.account-overlay .user-details .details .name {
+    color: red;
+}
+
+.account-overlay .user-details .details .email {
+    color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
